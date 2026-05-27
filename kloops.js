@@ -11,7 +11,7 @@ while (count > 0){
   console.log(count);
   count--;
 }
-// TODO: Create a loop that prints only even numbers from the numbers array 
+// TODO: Create a loop that prints only even numbers from the numbers array
 for (let m=0 ; m<numbers.length ; m++){
   if (numbers[m] % 2==0){
     console.log(numbers[m]);
