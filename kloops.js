@@ -5,12 +5,16 @@ let numbers = [1, 2, 3, 4, 5];
 for(let m=0 ; m<numbers.length; m++) {
   console.log(numbers[m]);
 }
+console.log("");
+
 // TODO: Write a while loop that counts down from 5 to 1 
 let count = 5;
 while (count > 0){
   console.log(count);
   count--;
 }
+console.log("");
+
 // TODO: Create a loop that prints only even numbers from the numbers array
 for (let m=0 ; m<numbers.length ; m++){
   if (numbers[m] % 2==0){
@@ -18,11 +22,15 @@ for (let m=0 ; m<numbers.length ; m++){
   }
   
 }
+console.log("");
+
+
 // TODO: Create a loop that calculates the sum of all numbers in the array
 let sum = 0;
 for(let m =0 ; m<numbers.length ; m++){
   sum += numbers[m];
 }
+
   console.log( "sum:",sum)
 
 //i am here
